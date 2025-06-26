@@ -1,0 +1,29 @@
+
+> build-storybook
+> storybook build --output-dir=/var/folders/h1/cjv443qs51n_vp7rrtw7xky80000gn/T/chromatic--42290-ZHMpWsN3flIN
+
+[1mstorybook v9.0.10
+[22m
+info => Cleaning outputDir: [36m../../../../../../var/folders/h1/cjv443qs51n_vp7rrtw7xky80000gn/T/chromatic--42290-ZHMpWsN3flIN[39m
+info => Loading presets
+info => Building manager..
+info => Manager built ([38;2;181;126;229m68 ms[39m)
+info => Building preview..
+info => Using implicit CSS loaders
+info => Using default Webpack5 setup
+WARN No story files found for the specified pattern: [34m**/*.stories.@(js|jsx|ts|tsx)[39m
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   735.f69e8255.iframe.bundle.js (364 KiB)
+WARN   609.7f1619e0.iframe.bundle.js (828 KiB)
+WARN   114.2b6cb575.iframe.bundle.js (437 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (447 KiB)
+WARN       runtime~main.33afcb67.iframe.bundle.js
+WARN       114.2b6cb575.iframe.bundle.js
+WARN       main.34aaf277.iframe.bundle.js
+WARN 
+info => Preview built ([38;2;181;126;229m3.92 s[39m)
+info => Output directory: /var/folders/h1/cjv443qs51n_vp7rrtw7xky80000gn/T/chromatic--42290-ZHMpWsN3flIN
