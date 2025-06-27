@@ -6,4 +6,20 @@ export default {
   component: Button,
 };
 
-export const Primary = () => <Button label="Click me" onClick={() => alert('Button clicked!')} />;
+export const Default = () => <Button label="Default" onClick={() => alert('Clicked!')} />;
+export const LeadingIcon = () => <Button label="Leading Icon" leadingIcon onClick={() => alert('Clicked!')} />;
+export const TrailingIcon = () => <Button label="Trailing Icon" trailingIcon onClick={() => alert('Clicked!')} />;
+export const BothIcons = () => <Button label="Both Icons" leadingIcon trailingIcon onClick={() => alert('Clicked!')} />;
+export const Loader = () => <Button label="Loading..." loader onClick={() => alert('Clicked!')} />;
+export const Disabled = () => <Button label="Disabled" disabled onClick={() => alert('Clicked!')} />;
+export const CentreAligned = () => <Button label="Centre Aligned" type="Centre Aligned" onClick={() => alert('Clicked!')} />;
+export const AllProps = () => (
+  <Button
+    label="All Props"
+    leadingIcon
+    trailingIcon
+    loader
+    type="Centre Aligned"
+    onClick={() => alert('Clicked!')}
+  />
+); 
