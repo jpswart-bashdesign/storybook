@@ -22,4 +22,8 @@ export const AllProps = () => (
     type="Centre Aligned"
     onClick={() => alert('Clicked!')}
   />
+<<<<<<< HEAD
 );
+=======
+); 
+>>>>>>> ea90d47
