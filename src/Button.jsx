@@ -62,8 +62,4 @@ export const Button = ({
       )}
     </button>
   );
-<<<<<<< HEAD
 };
-=======
-}; 
->>>>>>> ea90d47
