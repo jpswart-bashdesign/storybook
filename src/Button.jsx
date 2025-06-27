@@ -1,8 +1,5 @@
 import React from 'react';
-
-// Icon assets (replace with actual URLs or import SVGs as needed)
-const leadingIconUrl = "http://localhost:3845/assets/dab7335e9b170b1344b11dad3876233299cbc549.svg";
-const trailingIconUrl = "http://localhost:3845/assets/cddbe22a5d55186f7e0afda43c0c8743c0e10d7b.svg";
+import { ArrowLeft, ArrowRight, Spinner } from '@phosphor-icons/react';
 
 export const Button = ({
   label = 'Button',
@@ -36,16 +33,8 @@ export const Button = ({
 
   return (
     <button onClick={onClick} style={baseStyles} disabled={disabled}>
-      {leadingIcon && (
-        <img
-          src={leadingIconUrl}
-          alt=""
-          style={{ width: 20, height: 20, marginRight: 8 }}
-        />
-      )}
-      {loader ? (
-        <span style={{ margin: '0 8px' }}>⏳</span> // Replace with spinner if needed
-      ) : null}
+      {leadingIcon && <ArrowLeft size={20} style={{ marginRight: 8 }} />}
+      {loader && <Spinner size={20} style={{ margin: '0 8px' }} />}
       {label && (
         <span style={{
           fontSize: 14,
@@ -53,13 +42,7 @@ export const Button = ({
           whiteSpace: 'nowrap',
         }}>{label}</span>
       )}
-      {trailingIcon && (
-        <img
-          src={trailingIconUrl}
-          alt=""
-          style={{ width: 20, height: 20, marginLeft: 8 }}
-        />
-      )}
+      {trailingIcon && <ArrowRight size={20} style={{ marginLeft: 8 }} />}
     </button>
   );
 };
