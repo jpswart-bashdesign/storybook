@@ -1,6 +1,8 @@
 {
   "devDependencies": {
     "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
     "@gorhom/bottom-sheet": "^5.1.6",
     "@react-native-async-storage/async-storage": "^2.2.0",
     "@react-native-community/datetimepicker": "^8.4.1",
@@ -8,8 +10,8 @@
     "@storybook/addon-a11y": "^9.0.10",
     "@storybook/addon-ondevice-actions": "^9.0.9",
     "@storybook/addon-ondevice-controls": "^9.0.9",
-    "@storybook/react": "^9.0.10",
-    "@storybook/react-native": "^9.0.9",
+    "@storybook/builder-webpack5": "^9.0.10",
+    "@storybook/react-webpack5": "^9.0.10",
     "babel-loader": "^8.4.1",
     "chromatic": "^12.2.0",
     "react-native-gesture-handler": "^2.26.0",
